@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.17.19",
+    "@tanstack/react-query-devtools": "^5.17.21",
+    "graphql-request": "^6.1.0",
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.17.22",
     "eslint": "^8",
     "eslint-config-next": "14.1.0"
   }
